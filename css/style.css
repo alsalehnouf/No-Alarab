@@ -1,0 +1,289 @@
+*{
+  direction: rtl !important;
+ scroll-behavior: smooth;
+}
+body{
+  font-family:'Times New Roman', Times, serif !important;
+  list-style: none;
+}
+.n-logo{
+  height: 150px;
+  margin: 75px !important;
+  transition: 1s;
+
+}
+.n-logo:hover{
+  transform:  scale(1.1) skew(-15deg) !important;
+
+}
+.navbar{
+  margin: 15px !important;
+}
+.navbar ul li a{
+  font-size:45px !important;
+   
+}
+.navbar ul li a i{
+  margin-left:10px;
+  
+}
+
+.navbar-expand-sm {
+  flex-wrap: nowrap;
+  justify-content: center !important;
+}
+.carousel-caption {
+  
+  bottom: 18.25rem !important;
+  font-size: 35px !important;
+}
+.nav-link{
+margin-left: 20px;
+}
+
+div .p-img{
+  font-size:75px;
+ 
+ 
+
+
+}
+.fa-solid, .fas {
+  font-weight: 900;
+  font-weight: 900;
+  font-size: 30px !important;
+  color: rgb(13 202 240);
+}
+
+.card-text{
+  height: 144px !important;
+  width:100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: justify;
+}
+
+li a.dropdown-item{
+  text-align: right !important;
+}
+
+h1 ,h2 {
+
+ text-align: center;
+ margin: 75px !important;
+ color: #283150 !important;
+ font-size:100px !important;
+ transition:2s;
+ 
+ 
+}
+h1:hover{
+  letter-spacing: 2px;
+  background-color: #0dcaf0; 
+  border: 2px white solid;
+  border-radius: 30%;
+  
+ 
+}
+h2:hover{
+  letter-spacing:4px;
+  background-color: #0dcaf0; 
+  border: 2px white solid;
+  border-radius: 30%;
+  
+}
+
+
+ 
+
+h3{
+  margin: 25px!important;
+  text-align: center !important;
+}
+
+
+ .no-center{
+  text-align: center;
+  border: 1px solid rgb(12, 1, 36);
+ }
+div .btnn{
+  border-radius: 25px;
+  height:60px;
+  font-size: 20px;
+ 
+}
+
+
+
+
+.btn-style{
+background-color: rgb(16, 13, 31); 
+text-align: center;
+padding: 16px;
+font-size: 16px;
+display: block;
+transition-duration: 0.4s;
+  
+}
+div .icon-right{
+  font-size: 50px;
+  margin: 25px;
+}
+div .h3-right{
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+
+}
+div .icon-left{
+  font-size: 50px;
+  margin: 25px;
+}
+div .h3-left{
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+
+}
+h5{
+  margin: 15px !important;
+ 
+}
+div .icon-center{
+  font-size: 50px;
+margin-top: 30px;
+margin-right:60px;
+ 
+}
+div .h3-center{
+  font-size:25px;
+  color: black;
+}
+div .btnn-1{
+border: 1px;
+height: 30px;
+border-radius: 25px;
+color: aliceblue;
+ margin: 35px;
+}
+.form-style{
+  transition: 2s;
+  padding: 20px;
+}
+div .form-style:hover{
+ 
+transform: scale(1.5);
+  box-shadow: 0PX 0PX 15PX 5PX #0dcaf0;
+border-radius: 20px;
+background-color: #0dcaf0;
+
+
+}
+div .form-style:hover .no-form{
+
+border: 2px solid white;
+border-radius: 25px;
+box-shadow: 0px 0px 5px 5px #0dcaf0;
+
+}
+div .form-style:hover .btn-submit{
+  box-shadow: 0px 0px 5px 5px #0dcaf0;
+  border: 2px solid white;
+  text-align: center;
+  font-weight: bold;
+}
+div .btn-submit{
+ border: 1px;
+height:40px;
+border-radius: 15px;
+color: aliceblue;
+ margin-top: 25px;
+ margin-right: 60px;
+ margin-bottom: 25px;
+ font-size: medium;
+ width:70px;
+}
+.div-footer{
+  height: 200px;
+  background-color: rgb(17, 11, 48) ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',
+  sans-serif;
+
+}
+
+
+.no-font{
+  font-size: 20px !important;
+  color:  rgb(2, 12, 44) !important;
+  margin: 10px;
+}
+.no-size{
+  height: 375px;
+  transition: 1s;
+}
+div .no-scale{
+  transition: 1s;
+
+}
+
+div .no-scale:hover .no-size{
+  transform: scale(1.1);
+
+}
+.no-bg{
+  transition: 1s;
+}
+div .no-scale:hover .no-bg{
+  background-color: #0dcaf0;
+  color: white;
+  padding: 50px;
+  font-weight: bold;
+}
+.btnn{
+  transition: 1s !important;
+}
+div .no-scale:hover .btnn{
+  padding-left: 200px !important;
+ background-color:white !important;
+ color: #0dcaf0 !important;
+}
+.no-nav{
+  font-size: 20px !important;
+  color: #0146b2 !important;
+}
+.no-hover{
+  transition: 1s;
+}
+
+.no-hover:hover{
+  border: none !important;
+/* box-shadow: 0px 0px 10px 10px #0dcaf0; */
+text-shadow: 0px 0px 15px #0dcaf0;
+  transform: rotate(60deg);
+}
+svg {
+  vertical-align: middle;
+  margin: 10px;
+  color: #0dcaf0;
+}
+.no-bold{
+  font-weight: bold;
+}
+
+
+.about{
+  margin-top: 20px;
+}
+.no-imag{
+  width: 24px;
+   height: 24px;
+  
+   margin: 10px;
+
+}
+svg{
+  color: #00a2e8;
+}
